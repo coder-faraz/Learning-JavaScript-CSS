@@ -1,0 +1,60 @@
+
+
+body {
+	background-color: silver;
+	margin: 0px;
+	font-family: verdana, arial;	/* - if browser fails to load verdana font, it will try to load the arial font	*/
+	font-size: 14px;
+}
+
+
+h2 {
+	letter-spacing: 0.2em;
+	text-decoration: underline overline solid purple;
+	font-style: italic;
+	text-shadow: 1px 2px purple;
+}
+
+
+.fieldset1 {
+	background-color: darkgreen;
+	width: 350px;
+	color: white;
+	border: 5px solid fuchsia;
+	border-radius: 12px;
+	padding: 5px 13px;
+}
+
+
+.req:after {
+	content: " *";
+	color: red;
+}
+
+
+fieldset label {
+	float: left;
+	width: 150px;
+	font-Weight: 600;
+}
+
+
+fieldset input {
+	border: 3px solid #FFFDD0;
+	border-radius: 4px;
+	box-shadow: 1px 2px 1px #888888;
+}
+
+
+fieldset select {
+	border: 2px solid #FFFDD0;
+	border-radius: 4px;
+}
+
+
+#submit {
+	margin-right: 20px;
+
+}
+
+
