@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title> Creating New Elements, Appending Child & Removing Child </title>
+
+	<!-- JavaScript createElement() method : This method is used to create the specified HTML Element Nodes from scratch (here we are creating new h2 and p tags).
+		We don't need to specify the position because, these new Elements automatically gets added after the last HTML Element..
+
+	- appendChild() method : With this method, we can attach our newly created HTML Element as a Child of Parent HTML Element.  Remember, in the hierarchy of 
+	   HTML, everything is about Parent Element & Child Element..
+
+	- createAttribute() method : This method is used to create the Attribute Node that we want to add to the HTML Element, we just need to pass the name of the 
+	   Attribute to create..
+
+	- setAttributeNode() method : This method adds an Attribute Node to an HTML Element  & replaces existing Attribute Nodes.  You must 1st use createAttribute()
+	   method & set its value using value property before adding an Attribute to an Element..
+	NOTE:- Attribute Node is not a Child of Element Node, but it is part of the Element Node, so we don't need to use appendChild() method after creating Attrib
+
+	- createTextNode() method : To Access the Attributes & Text of our HTML code, the concept of Nodes is used & 3 types of Nodes are there- the Element Node,
+	   the Attribute Node  & the Text Node.  Everything in HTML document is a Node  & they have a Parent-Child relationship. The Text Node is at the bottom of
+	   HTML hierarchy & cannot have a Child. The createTextNode() method is used to create the Text Node of our newly created HTML Element. After this, we need 
+	   to call the appendChild() method to attach the Text Node to our newly created Element Node, because the Text Node is always a Child of Element Node.. 
+
+	- removeChild() method : This method is used to remove a Child from the Parent Node, returns null if child does not exist..
+
+	-- parentNode property : In HTML hierarchy everything is Parent Element & Child Element. This property is used to get the Parent Node of the specified Node.
+	   This property is Read-Only..	   -->
+
+
+	<script type="text/javascript" src="10-createElement js file.js">		</script>
+
+	<link type="text/css" rel="stylesheet" href="10-createElement css file.css">
+
+
+</head>
+
+<body>
+
+	<div id="div1">
+
+		<h2> Google I/O 2022 </h2>
+		<p> Google illustrated its commitment to protecting people from cyberthreats by introducing a wide range of privacy and security features. 
+		Automatic 2-factor authentication (2FA), Account Safety Status, and a new tool to remove personal information from Google search results were among 
+		the notable features that were demonstrated at the event. The tech company said that it will soon introduce a safety status notification system to its 
+		applications. Users will be able to see a yellow alert icon on their profile picture in applications to prompt them to take steps to improve their 
+		safety. Google has announced phishing protection features on its Google Docs, Slides and Sheets. </p>	<br />
+
+		<h2> New CERT Rules for Crypto Exchanges, VPN providers to come into effect </h2>
+		<p> Indian Computer Emergency Response Team (CERT-In) recently issued new cybersecurity directions, which would impact the crypto industry at large. It 
+		It covered aspects related to the timeframe for reporting cyber security incidents, maintenance of KYC and transaction information for crypto exchanges 
+		and wallets, maintenance of customer details by data centres, cloud services and VPN providers, and maintenance of logs in Indian jurisdiction. CERT-In 
+		is the government-appointed nodal agency tasked with performing cybersecurity-related functions and has issued these directions under section 70B of the 
+		Information Technology Act, 2000. CERT said crypto exchanges and wallets must maintain know your customer (KYC) details and records of financial 
+		transactions for five years. All entities must mandatorily enable logs of all their ICT systems and maintain them securely for a period of 180 days. </p>	<br />
+
+	</div>
+
+	<button onclick="nextArticleAndAttrib()" id="button1"> Click Here To Read The Next Article  </button>	<br />  <br />
+
+	<button onclick="removeArticle()" id="button2"> Click Here To Remove An Article  </button>
+
+</body>
+
+</html>
+
