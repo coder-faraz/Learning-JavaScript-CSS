@@ -1,0 +1,77 @@
+
+#button2 {
+	background-color: white;
+	color: black;
+	font-weight: 700;
+	font-size: 16px;
+	border: 3px solid green;
+	border-radius: 6px;
+	padding: 10px 20px;
+	margin:-330px 40px 4px 650px ;		/* 30px 40px 4px 50px	*/
+	transition-duration: 0.4s;
+	cursor: pointer;
+	display: block;		// this means that element is displayed as Block with whitespace above & below it  & tolerates no HTML Elements next to it
+	position: absolute;
+}
+
+#button2:hover {
+	background-color: crimson;
+	color: DarkBlue;
+	box-shadow: 0 8px 10px 0 rgba(86, 8, 24, 0.50);
+}
+
+#button2:active {
+	transform: translateY(6px);
+}
+
+
+
+#button1 {
+	display: block;
+	position: absolute;
+	background-color: white;
+	color: black;
+	font-weight: 700;
+	font-size: 16px;
+	border: 3px solid crimson;
+	border-radius: 6px;
+	box-shadow: 0 8px 10px 0 rgba(86, 8, 24, 0.50);
+	padding: 5px 10px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+
+#button1:active {
+	transform: translateY(2px);
+}
+
+
+
+#date {
+	display: block;
+	position: absolute;
+	margin: 2px 30px 4px 650px;
+	color: DarkBlue;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+
+#image2 {
+	display: flex;
+	margin: 20px 30px 5px 550px;
+	border: none;
+	border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
