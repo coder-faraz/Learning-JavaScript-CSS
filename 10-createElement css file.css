@@ -1,0 +1,61 @@
+
+body {
+	background-color: fuchsia;
+	margin: 0px;
+	font-family: verdana, arial;		// - if browser fails to load verdana font, it will try to load the arial font
+	font-size: 14px;
+}
+
+
+#div1 {
+	background-color: #e5e4d7;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+
+h2 {
+	color: #ce282e;
+}
+
+
+p {
+	color: darkgreen;
+	font-weight: 600;
+
+}
+
+
+#button1 {
+	display: block;
+	position: absolute;
+	background-color: white;
+	color: black;
+	font-weight: 700;
+	font-size: 16px;
+	border: 3px solid crimson;
+	border-radius: 6px;
+	padding: 5px 10px;
+	margin: 0px 0px 0px 8px;
+	box-shadow: 0 8px 10px 0 rgba(86, 8, 24, 0.50);
+	cursor: pointer;
+}
+
+#button2 {
+	display: block;
+	position: absolute;
+	background-color: white;
+	color: black;
+	font-weight: 700;
+	font-size: 16px;
+	border: 3px solid crimson;
+	border-radius: 6px;
+	padding: 5px 10px;
+	margin: 8px 0px 0px 8px;
+	box-shadow: 0 8px 10px 0 rgba(86, 8, 24, 0.50);
+	cursor: pointer;
+}
+
+
+
